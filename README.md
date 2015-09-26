@@ -25,7 +25,7 @@ Or to add general TOML file support
 ``` javascript
 var nconf = require('nconf')
 
-nconf.formats.yaml = require('nconf-toml')
+nconf.formats.toml = require('nconf-toml')
 
 // and then you can do
 
