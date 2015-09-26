@@ -1,0 +1,31 @@
+{
+  "name": "nconf-toml",
+  "version": "0.0.1",
+  "description": "TOML format plugin for nconf.",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test && semistandard index.js test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RobLoach/nconf-toml"
+  },
+  "keywords": [
+    "nconf"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobLoach/nconf-toml/issues"
+  },
+  "homepage": "https://github.com/RobLoach/nconf-toml",
+  "devDependencies": {
+    "nconf": "^0.8.0",
+    "semistandard": "^7.0.2"
+  },
+  "dependencies": {
+    "toml": "^2.3.0",
+    "tomlify-j0.4": "^1.0.1"
+  }
+}
