@@ -1,6 +1,6 @@
 {
   "name": "nconf-toml",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TOML format plugin for nconf.",
   "files": [
     "index.js"
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/RobLoach/nconf-toml",
   "devDependencies": {
-    "nconf": "^0.8.0",
-    "semistandard": "^7.0.2"
+    "nconf": "^0.8.4",
+    "semistandard": "^7.0.5"
   },
   "dependencies": {
     "toml": "^2.3.0",

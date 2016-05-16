@@ -3,6 +3,7 @@ var assert = require('assert');
 var nconf = require('nconf');
 var toml = require('toml');
 var fs = require('fs');
+var nconfToml = require('..');
 
 /**
  * Test reading a configuration.
@@ -12,7 +13,7 @@ function testRead () {
   nconf.add('test', {
     type: 'file',
     file: 'test/fixtures/test.toml',
-    format: require('..')
+    format: nconfToml
   });
 
   // Retrieve the owner:organization setting.
@@ -29,7 +30,7 @@ function testWrite () {
   // Set the writing location.
   nconf.use('test', {
     file: 'test/fixtures/test-write.toml',
-    format: require('..'),
+    format: nconfToml,
     type: 'file'
   });
 
