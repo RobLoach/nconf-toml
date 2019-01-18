@@ -25,7 +25,7 @@
     "semistandard": "^7.0.5"
   },
   "dependencies": {
-    "toml": "^2.3.0",
+    "toml": "2.3.3",
     "tomlify-j0.4": "^1.0.1"
   }
 }
